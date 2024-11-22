@@ -1,8 +1,10 @@
+import { WidePageLayout } from '../../assets/components/Layout/Page.layout'
+import { CenterAlignColumns, LgColumn } from '../../assets/components/Layout/Columns.layout'
 function StudentResources() {
     return (
         // header here
         // page div
-        <>
+        <WidePageLayout>
           <div>
             <header>
                 <h1>Student Resources</h1>
@@ -19,7 +21,7 @@ function StudentResources() {
                 </div>
             </div>
           </div>  
-        </>
+        </WidePageLayout>
     );
 }
 
