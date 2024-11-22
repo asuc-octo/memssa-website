@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100vh;
+  }
+
+input:autofill {
+    box-shadow: 0 0 0px 1000px #ffadde33 inset;
+    background-color: transparent;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: 'Inter', monospace;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    color: #646464;
+}
