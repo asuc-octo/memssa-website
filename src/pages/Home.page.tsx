@@ -1,5 +1,6 @@
 import { FourToOneGrid } from '../assets/components/Layout/Columns.layout';
 import { WidePageLayout } from '../assets/components/Layout/Page.layout'
+import AboutUsImage from '../assets/images/AboutUsImage.jpg'
 function Home() {
     return (
         // header here
@@ -15,7 +16,7 @@ function Home() {
             </section>
             <section className="flex flex-row items-center my-4">
             <div className="w-1/2">
-              <img src="../assets/images/test.png" alt="About Us" className="w-full h-auto" />
+              <img src={AboutUsImage} alt="About Us" className="w-full h-auto" />
             </div>
             <div className="w-1/2 px-8">
               <h2 className="text-3xl font-bold mb-4">About Us</h2>
@@ -31,9 +32,9 @@ function Home() {
             </div>
             </section>
         </WidePageLayout>
-        <section className="bg-red-500 text-white text-center py-4 w-full">
+        {/*<section className="bg-red-500 text-white text-center py-4 w-full">
           <h1 className="text-xl font-bold">Our next event is in ?? days</h1>
-        </section>
+        </section>*/}
         <WidePageLayout>
           <FourToOneGrid>
             <button className="bg-blue-500 text-white py-4 px-6 rounded-lg text-lg font-bold">
