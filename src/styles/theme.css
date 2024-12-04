@@ -1,23 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ethiopic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font:dm text-title;
+@layer base {
+    h1 {
+        @apply font-noto-serif-ethiopic font-bold text-center text-white header-text-shadow text-9xl py-5;
     }
 
-    h1 {
-        @apply font-black text-[2.5rem];
-    }
-    
     h2 {
-        @apply font-bold text-4xl;
+        @apply font-caladea font-bold text-center text-red text-4xl py-5;
     }
 
     h3 {
@@ -35,6 +29,21 @@
     h6 {
         @apply font-medium text-lg;
     }
+
+    body {
+        @apply font-caladea
+    }
+
+    .header-text-shadow {
+        text-shadow: 0 5px 5px rgba(114, 23, 32, 0.5)
+    }
+
+    .border-color {
+        @apply border-dark-red;
+    }
+}
+
+@layer components {
 }
 
 @layer utilities {

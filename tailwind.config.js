@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
     content: [
         './index.html',
@@ -12,6 +13,8 @@ export default {
             fontFamily: {
                 dm: '"Intent"',
                 open: '"Open Sans"',
+                'noto-serif-ethiopic': ['"Noto Serif Ethiopic"', 'mono'],
+                caladea: ['"Caladea"', 'mono'],
             },
             screens: {
                 mb: { max: '512px' },
@@ -20,10 +23,12 @@ export default {
             colors: {
                 black: "#000000",
                 white: "#ffffff",
+                red: "#B2675E",
+                'dark-red': "#590E17",
+                
             },
             backgroundColor: {
-                body: "#ffffff",
-                box: "#ffffff",
+                'light-brown': "#EBDCCB",
             },
             textColor: {
                 primary: "#000000",

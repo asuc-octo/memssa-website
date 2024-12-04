@@ -5,18 +5,18 @@ function Home() {
     return (
         // header here
         // page div
-        <>
+        <div className="bg-light-brown">
         <WidePageLayout>
             <section
               id='welcome-container'
               className='h-[30vh] relative top-0'
             >
-            <h1 className="text-center font-bold text-black text-4xl">MEMSSA</h1>
-            <h2 className="text-center font-light text-black text-2xl">middle east, muslim, sikh, south asian association</h2>
+            <h1>MEMSSA</h1>
+            <h2>middle east, muslim, sikh, south asian association</h2>
             </section>
             <section className="flex flex-row items-center my-4">
             <div className="w-1/2">
-              <img src={AboutUsImage} alt="About Us" className="w-full h-auto" />
+              <img src={AboutUsImage} alt="About Us" className="border-color border-8 rounded-br-xl rounded-tl-xl w-full h-auto" />
             </div>
             <div className="w-1/2 px-8">
               <h2 className="text-3xl font-bold mb-4">About Us</h2>
@@ -54,7 +54,7 @@ function Home() {
             </button>
           </FourToOneGrid>
         </WidePageLayout>
-        </>
+        </div>
         
     );
 }
