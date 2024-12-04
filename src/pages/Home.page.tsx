@@ -9,8 +9,8 @@ function Home() {
           <Banner title="MEMSSA"/>
           <WidePageLayout>
               <section className="flex flex-row items-center my-4">
-              <div className="w-1/2">
-                <img src={AboutUsImage} alt="About Us" className="border-color border-8 rounded-br-xl rounded-tl-xl w-full h-auto"/>
+              <div className="w-1/2 border-color border-8 rounded-tl-large-custom rounded-br-large-custom bg-dark-red">
+                <img src={AboutUsImage} alt="About Us" className="rounded-large-custom"/>
               </div>
               <div className="w-1/2 px-8 flex flex-col items-center">
                 <h3>About Us</h3>

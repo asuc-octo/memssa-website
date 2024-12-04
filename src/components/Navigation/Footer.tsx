@@ -4,7 +4,7 @@ import OCFLogo from '../../assets/images/OCFLogo.svg'
 
 function Footer() {
     return (
-        <footer className="bg-[#a56456] text-[#f5f5f5] p-6 font-serif flex justify-between">
+        <footer className="bg-red text-[#f5f5f5] p-6 font-serif flex justify-between">
             {/* Logo */}
             <div className="flex flex-col">
                 <div className='mt-14 pl-2 flex flex-row'>
@@ -19,7 +19,7 @@ function Footer() {
                 <div className="flex-10 m-4 min-w-[80px]">
                     <h4 className="mb-2 font-bold">General</h4>
                     <ul className="text-xl list-none p-0">
-                        <li className="mb-2"><a href="#about" className="hover:text-[#f8d6ba] transition-colors">About</a></li>
+                        {/*<li className="mb-2"><a href="#about" className="hover:text-[#f8d6ba] transition-colors">About</a></li>*/}
                         <li className="mb-2"><a href="#office" className="hover:text-[#f8d6ba] transition-colors">Our Office</a></li>
                         <li className="mb-2"><a href="#resources" className="hover:text-[#f8d6ba] transition-colors">Resources</a></li>
                         <li className="mb-2"><a href="#calendar" className="hover:text-[#f8d6ba] transition-colors">Calendar</a></li>

@@ -17,9 +17,6 @@ export default {
                 caladea: ['"Caladea"', 'mono'],
                 'noto-sans': ['"Noto Sans"', 'mono'],
                 'pacifico': ['"Pacifico"', 'mono'],
-    "react-icons": "^5.3.0",
-    "react-router-dom": "^6.28.0",
-    "react-responsive-carousel": "^3.2.23"
             },
             screens: {
                 mb: { max: '512px' },
@@ -43,7 +40,7 @@ export default {
                 primary: "#000000",
             },
             borderRadius: {
-              box: "0.5rem",
+                box: "0.5rem",
             },
             boxShadow: {
                 card: '0 10px 29px 0 rgba(68, 88, 144, 0.1)',
@@ -51,6 +48,17 @@ export default {
             },
             dropShadow: {
                 'default': '0 1.2px 1.2px rgba(0,0,0,0.8)'
+            },
+            borderRadius: {
+                'none': '0',
+                'sm': '0.125rem',
+                DEFAULT: '0.25rem',
+                DEFAULT: '4px',
+                'md': '0.375rem',
+                'lg': '0.5rem',
+                'full': '9999px',
+                'large': '12px',
+                'large-custom': '80px',
             },
         },
     },
