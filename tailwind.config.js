@@ -15,6 +15,9 @@ export default {
                 open: '"Open Sans"',
                 'noto-serif-ethiopic': ['"Noto Serif Ethiopic"', 'mono'],
                 caladea: ['"Caladea"', 'mono'],
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.28.0",
+    "react-responsive-carousel": "^3.2.23"
             },
             screens: {
                 mb: { max: '512px' },
@@ -25,7 +28,7 @@ export default {
                 white: "#ffffff",
                 red: "#B2675E",
                 'dark-red': "#590E17",
-                
+                bgdefault: "#E6D7C3",
             },
             backgroundColor: {
                 'light-brown': "#EBDCCB",
@@ -39,6 +42,9 @@ export default {
             boxShadow: {
                 card: '0 10px 29px 0 rgba(68, 88, 144, 0.1)',
                 'card-hover': '0 10px 36px 0 rgba(68, 88, 144, 0.3)',
+            },
+            dropShadow: {
+                'default': '0 1.2px 1.2px rgba(0,0,0,0.8)'
             },
         },
     },

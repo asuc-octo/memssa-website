@@ -1,13 +1,13 @@
 import AboutUsImage from '../../assets/images/AboutUsImage.jpg'
 import TeamHs from '../../assets/images/teampageheadshot.jpeg'
 import ChiefsTeam from '../../assets/images/chiefsimg.jpg'
+import Banner from '../../components/Navigation/Banner'
 
 
 function Team() {
   return (
-        // header here
-        // page div
     <>
+      <Banner title="Our Team"/>
       <div className="min-h-screen mx-20 mt-24 flex flex-col gap-12">
         <div className="h-11/12 flex flex-col items-center gap-16 text-black">
         <img src={AboutUsImage} alt="Team Image" className="h-auto justify-center" />

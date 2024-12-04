@@ -1,11 +1,12 @@
+import Banner from '../components/Navigation/Banner'
+
 function NotFoundPage() {
     return (
-        // header here
-        // page div
         <>
-          <div>
+          <Banner title="MEMSSA"/>
+          <h2 className='text-center'>
             Invalid Path
-          </div>  
+          </h2>  
         </>
     );
 }
