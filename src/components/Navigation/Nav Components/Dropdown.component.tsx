@@ -52,7 +52,7 @@ export const Dropdown = ({items, children}: {
                             const { path, label} = item
                             return (
                                 <li
-                                    className={`cursor-pointer block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-opacity duration-300`}
+                                    className={`rounded-md cursor-pointer block px-4 py-2 text-sm text-dark-red hover:bg-light-brown transition-opacity duration-300`}
                                     onClick={() => {
                                         navigate(path)
                                         toggleDropdown();

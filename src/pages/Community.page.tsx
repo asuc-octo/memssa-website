@@ -1,3 +1,4 @@
+import Banner from '../components/Navigation/Banner'
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import community1 from '../assets/images/community/community1.jpg';
@@ -19,10 +20,9 @@ import asu from '../assets/images/community/ASU.png';
 
 function CommunityPage() {
     return (
+        <>
+        <Banner title="Community"/>
         <div className="bg-[#f8f1e7] mx-0 px-0 py-5 font-serif text-[#4d3c36]">
-            <header>
-                <h1 className="text-center text-4xl mb-5 text-[#8b5e3c]">MEMSSA Community</h1>
-            </header>
             <div className="relative mx-auto w-[100%] mb-7">
                 {/* Carousel */}
                 <Carousel showThumbs={false} autoPlay interval={4000} infiniteLoop>
@@ -75,6 +75,7 @@ function CommunityPage() {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

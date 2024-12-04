@@ -6,51 +6,39 @@ import Banner from '../components/Navigation/Banner'
 function Home() {
     return (
         <>
-          <Banner title="Home"/>
+          <Banner title="MEMSSA"/>
           <WidePageLayout>
-              <section
-                id='welcome-container'
-                className='h-[30vh] relative top-0'
-              >
-              <h1>MEMSSA</h1>
-              <h2>middle east, muslim, sikh, south asian association</h2>
-              </section>
               <section className="flex flex-row items-center my-4">
               <div className="w-1/2">
                 <img src={AboutUsImage} alt="About Us" className="border-color border-8 rounded-br-xl rounded-tl-xl w-full h-auto"/>
               </div>
-              <div className="w-1/2 px-8">
-                <h2 className="text-3xl font-bold mb-4">About Us</h2>
+              <div className="w-1/2 px-8 flex flex-col items-center">
+                <h3>About Us</h3>
                 <p className="text-lg mb-4">
                 MEMSSA represents the University of California, Berkeley by advocating for an academic, administrative, and operates on grassroots levels. The team mission emphasizes the importance of mobilizing organizations that indicate their intent on serving and / or representing one or more of the following identities: Middle Eastern, Muslim, Sikh, or South Asian.
                 </p>
                   <button
-                  className="bg-blue-500 text-white py-2 px-4 rounded"
+                  className="bg-dark-red text-light-brown py-2 px-8 rounded-xl hover:bg-light-purple"
                   onClick={() => window.location.href = '/office/pastbills'}
                   >
                   Link to Constitution Bills
                   </button>
               </div>
               </section>
-          </WidePageLayout>
-          {/*<section className="bg-red-500 text-white text-center py-4 w-full">
-            <h1 className="text-xl font-bold">Our next event is in ?? days</h1>
-          </section>*/}
-          <WidePageLayout>
             <FourToOneGrid>
-              <button className="bg-blue-500 text-white py-4 px-6 rounded-lg text-lg font-bold">
+              <button className="bg-dark-red text-light-brown py-2 px-8 rounded-xl hover:bg-light-purple">
                 Join Our Office
               </button>
-              <button className="bg-blue-500 text-white py-4 px-6 rounded-lg text-lg font-bold">
+              <button className="bg-dark-red text-light-brown py-2 px-8 rounded-xl hover:bg-light-purple">
                 Join Our Mailing List
               </button>
               <button
-                className="bg-blue-500 text-white py-4 px-6 rounded-lg text-lg font-bold"
+                className="bg-dark-red text-light-brown py-2 px-8 rounded-xl hover:bg-light-purple"
                 onClick={() => window.location.href = '/calendar'}
               >
                 Calendar
               </button>
-              <button className="bg-blue-500 text-white py-4 px-6 rounded-lg text-lg font-bold">
+              <button className="bg-dark-red text-light-brown py-2 px-8 rounded-xl hover:bg-light-purple">
                 Anonymous Suggestions
               </button>
             </FourToOneGrid>

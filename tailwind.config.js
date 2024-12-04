@@ -15,6 +15,8 @@ export default {
                 open: '"Open Sans"',
                 'noto-serif-ethiopic': ['"Noto Serif Ethiopic"', 'mono'],
                 caladea: ['"Caladea"', 'mono'],
+                'noto-sans': ['"Noto Sans"', 'mono'],
+                'pacifico': ['"Pacifico"', 'mono'],
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.28.0",
     "react-responsive-carousel": "^3.2.23"
@@ -28,7 +30,11 @@ export default {
                 white: "#ffffff",
                 red: "#B2675E",
                 'dark-red': "#590E17",
+                'light-brown': "#EBDCCB",
+                'light-purple': "#673F3D",
+                brown: "#C4A381",
                 bgdefault: "#E6D7C3",
+                subheader: "#721720"
             },
             backgroundColor: {
                 'light-brown': "#EBDCCB",

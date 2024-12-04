@@ -23,7 +23,7 @@ const NavBar = () => {
         <nav
             className={`h-20 top-0 ${
                 scrolled
-                    ? 'bg-[#C4A381] shadow-xl shadow-slate-700/10' 
+                    ? 'bg-light-brown shadow-xl shadow-slate-700/10' 
                     : 'bg-transparent'
             } transition-all z-50 fixed w-screen flex gap-3- select-none ease-in-out duration-300 px-10 py-2 items-center justify-between`}
         >
@@ -34,7 +34,7 @@ const NavBar = () => {
                     navigate('/')
                 }}
             >
-                <img src={MemssaLogo} className='h-12 w-12 pointer-events-none' />
+                <img src={MemssaLogo} className='h-16 w-16 pointer-events-none' />
             </div>
             <ul
                 id='navbar-items-container'
@@ -51,9 +51,9 @@ const NavBar = () => {
                                     navigate(path)
                                 }
                             }}
-                            className={`text-[#B2675E] cursor-pointer ${
+                            className={`text-dark-red cursor-pointer ${
                                 selected
-                                    ? 'font-bold opacity-100'
+                                    ? 'opacity-100'
                                     : 'opacity-80 hover:opacity-100'
                             } transition-opacity duration-300 ${
                                 label === 'API' && 'mb:hidden'
