@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation } from 'react-router-dom'
-//import Navigation from './components/Navigation/Navigation'
+import Navigation from './components/Navigation/Navigation'
 import { NAV_BAR_ITEMS } from './data/navbaritems.data'
 import Home from './pages/Home.page'
 import './styles/defaults.css'
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path='/'>
+      <Route path='/' element={<Navigation />}>
         <Route index element={<Home />} />
         {NAV_BAR_ITEMS.map((item) => {
           if (item.subItems) {
