@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AboutUsImage from '../../assets/images/teambanner.png';
 import TeamHs from '../../assets/images/teampageheadshot.jpeg';
 import ChiefsTeam from '../../assets/images/chiefsimg.jpg';
 import TeamBanner from '../../assets/images/teambanner.png';
@@ -78,7 +79,7 @@ function Team() {
           <Carousel
             showThumbs={false}
             autoPlay
-            interval={3000}
+            interval={3500}
             infiniteLoop
             onChange={(index) => setCurrentDepartment(departments[index].name)}
           >
