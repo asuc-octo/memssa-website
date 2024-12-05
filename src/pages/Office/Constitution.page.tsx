@@ -11,7 +11,7 @@ function Constitution() {
               src={ConstitutionPDF}
               width="80%"
               height="900px"
-              className="border-black rounded-md"
+              className="border-color border-8 bg-dark-red"
               title="Constitution"
             />
           </div>

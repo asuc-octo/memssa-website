@@ -42,12 +42,12 @@ function CommunityPage() {
         <>
         <Banner title="Community"/>
         <div className="bg-[#f8f1e7] mx-0 px-0 py-5 font-serif text-[#4d3c36]">
-            <div className="relative mx-auto w-[100%] mb-7">
+            <div className="relative mx-auto w-[90%] mb-7 border-color border-8 rounded-tl-large-custom rounded-br-large-custom bg-dark-red">
                 {/* Carousel */}
                 <Carousel showThumbs={false} autoPlay interval={4000} infiniteLoop>
                     {[community5, community1, community4, community2, community3, community6, community8].map((image, index) => (
                         <div key={index}>
-                            <img src={image} alt={`Community Event ${index + 1}`} className="w-full h-auto max-h-[500px] object-cover" />
+                            <img src={image} alt={`Community Event ${index + 1}`} className="w-full h-auto max-h-[500px] object-cover rounded-large-custom" />
                         </div>
                     ))}
                 </Carousel>
@@ -57,7 +57,7 @@ function CommunityPage() {
             </div>
             {/* RSO's */}
             <div className="px-10 py-5">
-                <h2 className="text-3xl text-[#8b5e3c] mb-5 text-center">MEMSSA Voting RSOs</h2>
+                <h3 className="mb-5 text-center">MEMSSA Voting RSOs</h3>
                 <div className="grid grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))] gap-5">
                     {[{ logo: afgan, name: "Afghan Student Association", handle: "@calasa_", link: "https://instagram.com/calasa_" },
                       { logo: asu, name: "Arab Student Union", handle: "@arabstudentunion_cal", link: "https://instagram.com/arabstudentunion_cal" },
@@ -66,7 +66,7 @@ function CommunityPage() {
                       { logo: bsphat, name: "Bhagat Puran Singh Health Initiative", handle: "@berkeleybpshi", link: "https://instagram.com/berkeleybpshi" },
                       { logo: esa, name: "Egyptian Student Association", handle: "@esaberkeley", link: "https://instagram.com/esaberkeley" },
                       { logo: fam, name: "Faces of African American Muslims", handle: "@ucb.fam", link: "https://instagram.com/ucb.fam" },
-                      { logo: isc, name: "Iranian Students’ Cultural Organization", handle: "@iscoucb", link: "https://instagram.com/iscoucb" },
+                      { logo: isc, name: "Iranian Studentsï¿½ Cultural Organization", handle: "@iscoucb", link: "https://instagram.com/iscoucb" },
                       { logo: jm, name: "Jakara Movement Chapter at UC Berkeley", handle: "@jakaramovement", link: "https://instagram.com/jakaramovement" },
                       { logo: menarrc, name: "Middle Eastern - North African Recruitment & Retention Center (MENARRC)", handle: "@calmenarrc", link: "https://instagram.com/calmenarrc" },
                       { logo: msa, name: "Muslim Student Association", handle: "@calmsa", link: "https://instagram.com/calmsa" },
@@ -80,9 +80,9 @@ function CommunityPage() {
                       
                       // Add more items here
                     ].map((rso, index) => (
-                        <div key={index} className="bg-white border border-[#e0d6cc] rounded-lg p-5 text-center shadow-md">
+                        <div key={index} className="bg-brown border border-brown rounded-lg p-5 text-center shadow-md">
                             <a href={rso.link} target="_blank" rel="noopener noreferrer">
-                                <div className="bg-white h-24 w-24 mx-auto mb-3 flex items-center justify-center rounded-full">
+                                <div className="bg-brown h-24 w-24 mx-auto mb-3 flex items-center justify-center rounded-full">
                                     <img src={rso.logo} alt={rso.name} className="object-contain" />
                                 </div>
                                 <p className="text-[#4d3c36] text-lg"> {/* text-center */}
@@ -92,7 +92,7 @@ function CommunityPage() {
                         </div>
                     ))}
                 </div>
-                <h2 className="mt-10 text-3xl text-[#8b5e3c] mb-5 text-center">MEMSSA Non-Voting RSOs</h2>
+                <h3 className="mt-10 mb-5 text-center">MEMSSA Non-Voting RSOs</h3>
                 <div className="grid grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))] gap-5">
                         {[{ logo: mtc, name: "Muslim Tech Collaborative (MTC)", handle: "@mtcberkeley", link: "https://instagram.com/mtcberkeley" },
                           { logo: mch, name: "Muslims of Haas", handle: "@muslimsofhaas", link: "https://instagram.com/muslimsofhaas" },
@@ -103,9 +103,9 @@ function CommunityPage() {
                           { logo: pac, name: "Punjabi Art Collective", handle: "@punjabiartcollective", link: "https://instagram.com/punjabiartcollective" }
                       // Add more items here
                     ].map((rso, index) => (
-                        <div key={index} className="bg-white border border-[#e0d6cc] rounded-lg p-5 text-center shadow-md">
+                        <div key={index} className="bg-brown border border-brown rounded-lg p-5 text-center shadow-md">
                             <a href={rso.link} target="_blank" rel="noopener noreferrer">
-                                <div className="bg-white h-24 w-24 mx-auto mb-3 flex items-center justify-center rounded-full">
+                                <div className="bg-brown h-24 w-24 mx-auto mb-3 flex items-center justify-center rounded-full">
                                     <img src={rso.logo} alt={rso.name} className="object-contain" />
                                 </div>
                                 <p className="text-[#4d3c36] text-lg"> {/* text-center */}

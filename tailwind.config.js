@@ -29,7 +29,7 @@ export default {
                 'dark-red': "#590E17",
                 'light-brown': "#EBDCCB",
                 'light-purple': "#673F3D",
-                brown: "#C4A381",
+                brown: "#D3B597",
                 bgdefault: "#E6D7C3",
                 subheader: "#721720"
             },

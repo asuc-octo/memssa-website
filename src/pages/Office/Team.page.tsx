@@ -17,79 +17,86 @@ import community6 from '../../assets/images/community/community6.jpg';
 import community8 from '../../assets/images/community/community8.png';
 
 function Team() {
-  // State to track the currently active department name
-  const [currentDepartment, setCurrentDepartment] = useState('Department 1');
-
   // Carousel images and corresponding department names
   const departments = [
-    { image: community5, name: 'Community Outreach' },
-    { image: community1, name: 'Event Planning' },
-    { image: community4, name: 'Volunteer Coordination' },
-    { image: community2, name: 'Public Relations' },
-    { image: community3, name: 'Fundraising' },
-    { image: community6, name: 'Graphic Design' },
-    { image: community8, name: 'Social Media Management' },
+    { image: community5, name: 'Community Outreach', description: 'a' },
+    { image: community1, name: 'Event Planning', description: 'b' },
+    { image: community4, name: 'Volunteer Coordination', description: 'c' },
+    { image: community2, name: 'Public Relations', description: 'd' },
+    { image: community3, name: 'Fundraising', description: 'e' },
+    { image: community6, name: 'Graphic Design', description: 'f' },
+    { image: community8, name: 'Social Media Management', description: 'g' },
   ];
+
+  // State to track the currently active department name and description
+  const [currentDepartment, setCurrentDepartment] = useState({ name: departments[0].name, description: departments[0].description });
+
+  const handleChange = (index: number) => {
+    setCurrentDepartment({
+      name: departments[index].name, // Set the department name
+      description: departments[index].description, // Set the department description
+    });
+  };
 
   return (
     <>
       <Banner title="Our Team" />
-      <div className="min-h-screen mx-20 mt-24 flex flex-col gap-12">
-        <div className="h-11/12 flex flex-col items-center gap-16 text-black">
-          <img src={TeamBanner} alt="Team Image" className="h-auto justify-center md:w-auto rounded-lg shadow-md" />
-          <h1 className="text-4xl">Our Team</h1>
+      <div className="min-h-screen mx-20 mt-10">
+        <div className="h-11/12 flex flex-col items-center gap-16 text-black border-color border-8 rounded-tl-large-custom rounded-br-large-custom bg-dark-red">
+          <img src={TeamBanner} alt="Team Image" className="h-auto justify-center md:w-auto rounded-large-custom shadow-md" />
         </div>
 
-        <div className="flex flex-col gap-16">
+        <div className="flex flex-col gap-16 py-10">
           {/* senator */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-52">
-            <div className="w-1/3 h-1/3 flex items-center justify-center">
-              <img src={TeamHs} alt="Senator Medina Danish" className="h-auto md:w-auto rounded-lg shadow-md" />
+            <div className="w-1/3 h-1/3 flex items-center justify-center border-color border-8 rounded-tl-large-custom rounded-br-large-custom bg-dark-red">
+              <img src={TeamHs} alt="Senator Medina Danish" className="h-auto md:w-auto rounded-large-custom shadow-md" />
             </div>
             <div className="flex flex-col text-center items-center self-start text-black justify-center">
-              <h1 className="text-2xl">
+              <h3 className="">
                 Meet MEMSSA<br />Senator<br />Medina Danish
-              </h1>
+              </h3>
               <p className="mt-2">about.</p>
             </div>
           </div>
 
           {/* chiefs of staff */}
           <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-52">
-            <div className="w-1/3 h-1/3 flex justify-center">
-              <img src={ChiefsTeam} alt="Chiefs Image" className="h-auto md:w-auto rounded-lg shadow-md" />
+            <div className="w-1/3 h-1/3 flex justify-center border-color border-8 rounded-tl-large-custom rounded-br-large-custom bg-dark-red">
+              <img src={ChiefsTeam} alt="Chiefs Image" className="h-auto md:w-auto rounded-large-custom shadow-md" />
             </div>
             <div className="flex flex-col text-center self-start text-black">
-              <h1 className="text-2xl">
+              <h3 className="">
                 Meet Our<br />Chiefs of Staff
-              </h1>
+              </h3>
               <p className="mt-2 text-black">about</p>
             </div>
           </div>
         </div>
 
         {/* departments */}
-        <div className="flex flex-col gap-4 text-black">
-          <h1 className="text-center text-4xl">OUR DEPARTMENTS!</h1>
-          <h2 className="text-center">{currentDepartment}</h2>
+        <div className="">
+          <h3 className="text-center">Our Departments</h3>
         </div>
 
         {/* Carousel Section */}
-        <div className="relative mx-auto w-full mb-7 md:w-auto rounded-lg shadow-md">
+        <div className="relative mx-auto w-full md:w-auto shadow-md border-color border-8 rounded-tl-large-custom rounded-br-large-custom bg-dark-red">
           <Carousel
             showThumbs={false}
             autoPlay
             interval={3500}
             infiniteLoop
-            onChange={(index) => setCurrentDepartment(departments[index].name)}
+            onChange={handleChange}
           >
             {departments.map((dept, index) => (
               <div key={index}>
-                <img src={dept.image} alt={dept.name} className="w-full h-auto max-h-[500px] object-cover md:w-auto rounded-lg shadow-md" />
+                <img src={dept.image} alt={dept.name} className="w-full h-auto max-h-[500px] object-cover md:w-auto rounded-large-custom shadow-md" />
               </div>
             ))}
           </Carousel>
         </div>
+        <h3 className="text-center">{currentDepartment.name}</h3>
+        <p className="text-center py-5">{currentDepartment.description}</p>
       </div>
     </>
   );
