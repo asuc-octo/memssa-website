@@ -8,15 +8,34 @@ import community4 from '../assets/images/community/community4.jpg';
 import community5 from '../assets/images/community/community5.png';
 import community6 from '../assets/images/community/community7.jpg';
 import community8 from '../assets/images/community/community8.png';
-import afgan from '../assets/images/community/afgan.png';
-import asu from '../assets/images/community/ASU.png';
-// import amenianlogo from '../assets/community/amenianlogo.png';
-// import bsa from '../assets/community/bsa.png';
-// import bfp from '../assets/community/BFP.png';
-// import bsphat from '../assets/community/bspat.png';
-// import esa from '../assets/community/esa.png';
-// import fam from '../assets/community/fam.png';
-// import isc from '../assets/community/isc.png';
+import afgan from '../assets/images/community/RSO Icons/afgan.png';
+import asu from '../assets/images/community/RSO Icons/ASU.png';
+import amenianlogo from '../assets/images/community/RSO Icons/amenianlogo.png';
+import bsa from '../assets/images/community/RSO Icons/bsa.png';
+import bfp from '../assets/images/community/RSO Icons/BFP.png';
+import bsphat from '../assets/images/community/RSO Icons/bspat.png';
+import esa from '../assets/images/community/RSO Icons/esa.png';
+import fam from '../assets/images/community/RSO Icons/fam.png';
+import isc from '../assets/images/community/RSO Icons/isc.png';
+import jm from '../assets/images/community/RSO Icons/jm.jpg';
+import menarrc from '../assets/images/community/RSO Icons/menarrc.jpg';
+import msa from '../assets/images/community/RSO Icons/msa.jpg';
+import psa from '../assets/images/community/RSO Icons/psa.jpg';
+import ssa from '../assets/images/community/RSO Icons/ssa.jpg';
+import ysa from '../assets/images/community/RSO Icons/ysa.jpg';
+import isa from '../assets/images/community/RSO Icons/isa.jpg';
+import saab from '../assets/images/community/RSO Icons/saab.jpg';
+import amsu from '../assets/images/community/RSO Icons/amsu.jpg';
+import mch from '../assets/images/community/RSO Icons/mch.jpg';
+import mtc from '../assets/images/community/RSO Icons/mtc.jpg';
+import absa from '../assets/images/community/RSO Icons/absa.jpg';
+import pph from '../assets/images/community/RSO Icons/pph.jpg';
+import threads from '../assets/images/community/RSO Icons/threads.jpg';
+import pac from '../assets/images/community/RSO Icons/pac.jpg';
+import ampd from '../assets/images/community/RSO Icons/ampd.jpg';
+
+
+
 
 function CommunityPage() {
     return (
@@ -42,6 +61,23 @@ function CommunityPage() {
                 <div className="grid grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))] gap-5">
                     {[{ logo: afgan, name: "Afghan Student Association", handle: "@calasa_", link: "https://instagram.com/calasa_" },
                       { logo: asu, name: "Arab Student Union", handle: "@arabstudentunion_cal", link: "https://instagram.com/arabstudentunion_cal" },
+                      { logo: amenianlogo, name: "Armenian Student Association", handle: "@cal_asa", link: "https://instagram.com/cal_asa" },
+                      { logo: bsa, name: "Bengali Student Association", handle: "@bsaberkeley", link: "https://instagram.com/bsaberkeley" },
+                      { logo: bsphat, name: "Bhagat Puran Singh Health Initiative", handle: "@berkeleybpshi", link: "https://instagram.com/berkeleybpshi" },
+                      { logo: esa, name: "Egyptian Student Association", handle: "@esaberkeley", link: "https://instagram.com/esaberkeley" },
+                      { logo: fam, name: "Faces of African American Muslims", handle: "@ucb.fam", link: "https://instagram.com/ucb.fam" },
+                      { logo: isc, name: "Iranian Students’ Cultural Organization", handle: "@iscoucb", link: "https://instagram.com/iscoucb" },
+                      { logo: jm, name: "Jakara Movement Chapter at UC Berkeley", handle: "@jakaramovement", link: "https://instagram.com/jakaramovement" },
+                      { logo: menarrc, name: "Middle Eastern - North African Recruitment & Retention Center (MENARRC)", handle: "@calmenarrc", link: "https://instagram.com/calmenarrc" },
+                      { logo: msa, name: "Muslim Student Association", handle: "@calmsa", link: "https://instagram.com/calmsa" },
+                      { logo: psa, name: "Pakistani Student Association", handle: "@psaucberkeley", link: "https://instagram.com/psaucberkeley" },
+                      { logo: ssa, name: "Sikh Student Association", handle: "@ucbssa", link: "https://instagram.com/ucbssa" },
+                      { logo: ysa, name: "Yemeni Student Association", handle: "@cal.ysa", link: "https://instagram.com/cal.ysa" },
+                      { logo: isa, name: "Iraqi Student Association", handle: "@isu.california", link: "https://instagram.com/isu.california" },
+                      { logo: saab, name: "Saudi Arabian Student Association", handle: "@berkeley.saab", link: "https://instagram.com/berkeley.saab" },
+                      { logo: amsu, name: "African Maghreb Student Union", handle: "@amsu_cal", link: "https://instagram.com/amsu_cal" },
+                      { logo: bfp, name: "Bears For Palestine", handle: "@bearsforpalestine", link: "https://instagram.com/bearsforpalestine" },
+                      
                       // Add more items here
                     ].map((rso, index) => (
                         <div key={index} className="bg-white border border-[#e0d6cc] rounded-lg p-5 text-center shadow-md">
@@ -58,7 +94,13 @@ function CommunityPage() {
                 </div>
                 <h2 className="mt-10 text-3xl text-[#8b5e3c] mb-5 text-center">MEMSSA Non-Voting RSOs</h2>
                 <div className="grid grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))] gap-5">
-                    {[{ logo: afgan, name: "ex", handle: "ex", link: "" },
+                        {[{ logo: mtc, name: "Muslim Tech Collaborative (MTC)", handle: "@mtcberkeley", link: "https://instagram.com/mtcberkeley" },
+                          { logo: mch, name: "Muslims of Haas", handle: "@muslimsofhaas", link: "https://instagram.com/muslimsofhaas" },
+                          { logo: absa, name: "Ahlul Bayt Student Association", handle: "@absaberkeley", link: "https://instagram.com/absaberkeley" },
+                          { logo: threads, name: "Threads Magazine", handle: "@threadsatcal", link: "https://instagram.com/threadsatcal" },
+                          { logo: pph, name: "Palestinian Public Health", handle: "@ucb_pph", link: "https://instagram.com/ucb_pph" },
+                          { logo: ampd, name: "AMPD", handle: "@calampd", link: "https://instagram.com/calampd" },
+                          { logo: pac, name: "Punjabi Art Collective", handle: "@punjabiartcollective", link: "https://instagram.com/punjabiartcollective" }
                       // Add more items here
                     ].map((rso, index) => (
                         <div key={index} className="bg-white border border-[#e0d6cc] rounded-lg p-5 text-center shadow-md">
