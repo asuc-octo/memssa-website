@@ -37,7 +37,7 @@ const NavBar = () => {
                 <img src={MemssaLogo} className='h-16 w-16 pointer-events-none' />
 
                 {scrolled && (
-                    <h1 className='text-2xl font-bold text-dark-red ml-3'>
+                    <h1 className='text-2xl font-bold text-dark-red ml-4'>
                         MEMSSA
                     </h1>
                 )}
