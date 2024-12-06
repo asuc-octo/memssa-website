@@ -48,8 +48,17 @@ function Home() {
 
                 <div className="relative w-full h-64">
                   <BackgroundImage/>
-                  <button className="bg-light-brown text-dark-red py-2 px-2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold w-3/4">
+                  <button className="bg-light-brown text-dark-red py-2 px-2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold w-3/4"
+                  onClick={() => (window.location.href = 'https://forms.gle/8NjJkvUQoWyf5ztm7')}
+                  >
                     Join Our Mailing List
+                  </button>
+                </div>
+
+                <div className="relative w-full h-64">
+                  <BackgroundImage/>
+                  <button className="bg-light-brown text-dark-red py-2 px-2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold w-3/4">
+                    Anonymous Suggestions
                   </button>
                 </div>
 
@@ -60,13 +69,6 @@ function Home() {
                     onClick={() => (window.location.href = '/calendar')}
                   >
                     Calendar
-                  </button>
-                </div>
-
-                <div className="relative w-full h-64">
-                  <BackgroundImage/>
-                  <button className="bg-light-brown text-dark-red py-2 px-2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold w-3/4">
-                    Anonymous Suggestions
                   </button>
                 </div>
               </FourToOneGrid>
