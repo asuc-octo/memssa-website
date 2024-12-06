@@ -15,7 +15,7 @@ const StudentResources: React.FC = () => {
         <div className="space-y-8">
           {/* External Harassment Form */}
           <div className="space-y-16 px-64">
-            <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="flex flex-col md:flex-row items-center gap-12 bg-brown border border-brown rounded-lg text-center shadow-md p-8">
               <img
                 src={UnivCal}
                 alt="UC Logo"
@@ -33,7 +33,7 @@ const StudentResources: React.FC = () => {
               </p>
             </div>
             {/* Muslim Mental Health Initiative */}
-            <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="flex flex-col md:flex-row items-center gap-12 bg-brown border border-brown rounded-lg text-center shadow-md p-8">
               <img
                 src={Mmhi}
                 alt="Muslim Mental Health Initiative Logo"
@@ -51,7 +51,7 @@ const StudentResources: React.FC = () => {
               </p>
             </div>
             {/* Prayer Space List */}
-            <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="flex flex-col md:flex-row items-center gap-12 bg-brown border border-brown rounded-lg text-center shadow-md p-8">
               <img
                 src={Msa}
                 alt="MSA Logo"
