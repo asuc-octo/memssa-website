@@ -29,12 +29,18 @@ const NavBar = () => {
         >
             <div
                 id='logo-container'
-                className='cursor-pointer'
+                className='cursor-pointer flex items-center'
                 onClick={() => {
                     navigate('/')
                 }}
             >
                 <img src={MemssaLogo} className='h-16 w-16 pointer-events-none' />
+
+                {scrolled && (
+                    <h1 className='text-2xl font-bold text-dark-red ml-3'>
+                        MEMSSA
+                    </h1>
+                )}
             </div>
             <ul
                 id='navbar-items-container'
