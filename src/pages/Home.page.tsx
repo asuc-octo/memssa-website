@@ -33,17 +33,15 @@ function Home() {
                 {title: "Anonymous Suggestions", link: 'https://forms.gle/e8RXbUoWaJbo4DXA7'}, 
                 {title: "Calendar", link: '/calendar'}
                 ].map((info, index) => (
-                  <div key={index} className="relative w-full h-64">
-                    <div className="relative w-full h-full">
-                      <img
-                        src={HomeButtonBackgroundImage}
-                        alt="Background"
-                        className="absolute top-0 left-0 w-full h-full object-cover rounded-xl"
-                      />
-                    </div>
+                  <div key={index} className="relative w-full h-64"
+                  onClick={() => (window.location.href = info.link)}>
+                    <img
+                      src={HomeButtonBackgroundImage}
+                      alt="Background"
+                      className="absolute top-0 left-0 w-full h-full object-cover rounded-xl"
+                    />
                     
                     <button className="bg-light-brown text-dark-red py-2 px-2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold w-3/4"
-                    onClick={() => (window.location.href = info.link)}
                     >
                       {info.title}
                     </button>
