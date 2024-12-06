@@ -17,22 +17,22 @@ import bsphat from '../assets/images/community/RSO Icons/bspat.png';
 import esa from '../assets/images/community/RSO Icons/esa.png';
 import fam from '../assets/images/community/RSO Icons/fam.png';
 import isc from '../assets/images/community/RSO Icons/isc.png';
-import jm from '../assets/images/community/RSO Icons/jm.jpg';
-import menarrc from '../assets/images/community/RSO Icons/menarrc.jpg';
-import msa from '../assets/images/community/RSO Icons/msa.jpg';
-import psa from '../assets/images/community/RSO Icons/psa.jpg';
-import ssa from '../assets/images/community/RSO Icons/ssa.jpg';
-import ysa from '../assets/images/community/RSO Icons/ysa.jpg';
-import isa from '../assets/images/community/RSO Icons/isa.jpg';
-import saab from '../assets/images/community/RSO Icons/saab.jpg';
-import amsu from '../assets/images/community/RSO Icons/amsu.jpg';
-import mch from '../assets/images/community/RSO Icons/mch.jpg';
-import mtc from '../assets/images/community/RSO Icons/mtc.jpg';
-import absa from '../assets/images/community/RSO Icons/absa.jpg';
-import pph from '../assets/images/community/RSO Icons/pph.jpg';
-import threads from '../assets/images/community/RSO Icons/threads.jpg';
-import pac from '../assets/images/community/RSO Icons/pac.jpg';
-import ampd from '../assets/images/community/RSO Icons/ampd.jpg';
+import jm from '../assets/images/community/RSO Icons/jm.png';
+import menarrc from '../assets/images/community/RSO Icons/menarrc.png';
+import msa from '../assets/images/community/RSO Icons/msa.png';
+import psa from '../assets/images/community/RSO Icons/psa.png';
+import ssa from '../assets/images/community/RSO Icons/ssa.png';
+import ysa from '../assets/images/community/RSO Icons/ysa.png';
+import isa from '../assets/images/community/RSO Icons/isa.png';
+import saab from '../assets/images/community/RSO Icons/saab.png';
+import amsu from '../assets/images/community/RSO Icons/amsu.png';
+import mch from '../assets/images/community/RSO Icons/mch.png';
+import mtc from '../assets/images/community/RSO Icons/mtc.png';
+import absa from '../assets/images/community/RSO Icons/absa.png';
+import pph from '../assets/images/community/RSO Icons/pph.png';
+import threads from '../assets/images/community/RSO Icons/threads.png';
+import pac from '../assets/images/community/RSO Icons/pac.png';
+import ampd from '../assets/images/community/RSO Icons/ampd.png';
 
 
 
