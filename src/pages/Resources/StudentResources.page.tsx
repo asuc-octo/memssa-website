@@ -10,7 +10,7 @@ import Mmhi from '../../assets/images/mmhi.jpg';
 const StudentResources: React.FC = () => {
   return (
     <>
-      <Banner title="Community Resources" />
+      <Banner title="Student Resources" />
       <WidePageLayout>
         <div className="space-y-8">
           {/* External Harassment Form */}
