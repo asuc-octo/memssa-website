@@ -20,7 +20,7 @@ function Home() {
                 </p>
                 <button
                   className="bg-dark-red text-light-brown py-2 px-8 rounded-xl hover:bg-light-purple"
-                  onClick={() => window.location.href = '/office/pastbills'}
+                  onClick={() => window.location.href = '/office/bills'}
                 >
                   Link to Constitution Bills
                 </button>
