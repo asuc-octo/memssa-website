@@ -13,7 +13,7 @@ function Home() {
               <div className="w-1/2 border-color border-8 rounded-tl-large-custom rounded-br-large-custom bg-dark-red">
                 <img src={AboutUsImage} alt="About Us" className="rounded-large-custom"/>
               </div>
-              <div className="w-1/2 px-8 flex flex-col items-center">
+                    <div className="w-1/2 px-8 flex flex-col items-center bg-brown border border-brown rounded-lg text-center shadow-md p-8 mx-10">
                 <h3>About Us</h3>
                 <p className="text-lg mb-4">
                   MEMSSA represents the University of California, Berkeley by advocating for an academic, administrative, and operates on grassroots levels. The team mission emphasizes the importance of mobilizing organizations that indicate their intent on serving and / or representing one or more of the following identities: Middle Eastern, Muslim, Sikh, or South Asian.
