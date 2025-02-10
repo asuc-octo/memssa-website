@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import { WidePageLayout } from '../../components/components/Layout/Page.layout';
 import Banner from '../../components/Navigation/Banner';
 
@@ -7,7 +7,7 @@ import UnivCal from '../../assets/images/uc.jpg'; // Example path for images
 import Msa from '../../assets/images/msa.jpg';
 import Mmhi from '../../assets/images/mmhi.jpg';
 
-const StudentResources: React.FC = () => {
+const StudentResources: () => JSX.Element = () => {
   return (
     <>
       <Banner title="Student Resources" />
