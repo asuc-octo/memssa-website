@@ -17,7 +17,7 @@
     }
 
     h3 {
-        @apply font-noto-sans font-bold text-center text-red text-4xl py-5
+        @apply font-noto-sans font-bold text-center text-subheader text-4xl py-5
     }
 
     h4 {

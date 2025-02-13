@@ -49,102 +49,90 @@ function Team() {
                     <img src={TeamBanner} alt="Team Image" className="h-auto justify-center md:w-auto rounded-large-custom shadow-md" />
                 </div>
 
-                <div className="flex flex-col gap-16 py-10">
-                    {/* senator */}
-                    <div className="flex flex-col md:flex-row items-center justify-center gap-24">
+                {/* senator */}
+                <div className="flex flex-col md:flex-row items-center justify-center gap-24 mt-10">
                         <div className="w-1/3 h-1/3 flex items-center justify-center border-color border-8 rounded-tl-large-custom rounded-br-large-custom bg-dark-red">
                             <img src={TeamHs} alt="Senator Medina Danish" className="h-auto md:w-auto rounded-large-custom shadow-md" />
                         </div>
                         <div className="flex flex-col w-1/2 text-center items-center self-start text-black justify-center bg-brown border border-brown rounded-lg text-center shadow-md p-8">
-                            <h3 className="">
+                            <h2 className="">
                                 Senator Medina Danish
-                            </h3>
+                            </h2>
                             <p className="mt-2">Medina Danish (she/her) is a junior majoring in Global Studies with a concentration in Peace & Conflict in the Middle East and minoring in Public Policy. She is passionate about MEMSSA issues and plans to work to combat them in her future career. As a member of the MEMSSA office for as long as she has been at Cal, she is beyond honored and excited about her term serving as the MEMSSA Community Senator.</p>
                         </div>
                     </div>
 
-                    {/* chiefs of staff 
-          <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-52">
-            <div className="w-1/3 h-1/3 flex justify-center border-color border-8 rounded-tl-large-custom rounded-br-large-custom bg-dark-red">
-              <img src={ChiefsTeam} alt="Chiefs Image" className="h-auto md:w-auto rounded-large-custom shadow-md" />
-            </div>
-            <div className="flex flex-col text-center self-start text-black">
-              <h3 className="">
-                Meet Our<br />Chiefs of Staff
-              </h3>
-              <p className="mt-2 text-black">about</p>
-            </div>
-          </div>
-        </div> */}
-
-                    <div className="flex flex-col w-full items-center justify-around text-center px-20 gap-y-8">
-                        {/* Title */}
-
-                        {/* Chief 1 */}
-                        <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-x-12 w-full mx-auto">
-                            <div className="w-full md:w-1/3 flex justify-center">
-                                {/* Image Card with Red Border */}
-                                <div className="bg-dark-red rounded-tl-large-custom rounded-br-large-custom shadow-md p-2">
-                                    <img
-                                        src={Chief1Image}
-                                        alt="Chief 1"
-                                        className="h-auto w-full rounded-tl-large-custom rounded-br-large-custom"
-                                    />
-                                </div>
-                            </div>
-                            <div className="w-full flex p-8 flex-col text-left md:text-left bg-brown border border-brown rounded-lg text-center shadow-md">
-                                <h3 className="text-3xl">Chief of Staff Somer Alrai </h3>
-                                <p className="mt-2 text-black text-center">
-                                    Somer Alrai (she/her) is a sophomore majoring in Media Studies, Middle Eastern Languages and Cultures with a minor in Public Policy. She hopes to pursue a career in law and is committed to incorporating advocacy and justice into her future career. Having worked as the Student Organizing Director last year with the MEMSSA office, she is thrilled to contribute further to its mission and support the voices community as Chief of Staff this year.
-                                </p>
-                            </div>
-                        </div>
-                        {/* Chief 2 */}
-                        <div className="flex flex-col md:flex-row items-center justify-center gap-x-12 w-full mx-auto">
-                            <div className="w-full md:w-1/3 flex justify-center">
-                                {/* Image Card with Red Border */}
-                                <div className="bg-dark-red rounded-tl-large-custom rounded-br-large-custom shadow-md p-2">
-                                    <img
-                                        src={Chief2Image}
-                                        alt="Chief 2"
-                                        className="h-auto w-full rounded-tl-large-custom rounded-br-large-custom"
-                                    />
-                                </div>
-                            </div>
-                            <div className="w-full flex p-20 flex-col text-center bg-brown border border-brown rounded-lg text-center shadow-md p-8">
-                                <h3 className="text-3xl">Chief of Staff Abdullah Memon</h3>
-                                <p className="mt-2 text-black ">
-                                    Abdullah Memon is currently a sophomore studying Politcal Economy and Middle Eastern Languages and culture, with a minor in Public Policy. He also serves as co-chief of staff for the MEMSSA office, focusing most of his time on external office tasks. He hopes to join the policy or law field after graduation and continue to advocate for disadvantaged communities as a life long mission.
-
-                                </p>
-                            </div>
-                        </div>
-                        {/* Chief 3 */}
-                        <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-x-12 w-full mx-auto">
-                            <div className="w-full md:w-1/3 flex justify-center">
-                                {/* Image Card with Red Border */}
-                                <div className="bg-dark-red rounded-tl-large-custom rounded-br-large-custom shadow-md p-2">
-                                    <img
-                                        src={Chief3Image}
-                                        alt="Chief 3"
-                                        className="h-auto w-full rounded-tl-large-custom rounded-br-large-custom"
-                                    />
-                                </div>
-                            </div>
-                            <div className="w-full flex flex-col p-20 text-left md:text-left bg-brown border border-brown rounded-lg text-center shadow-md p-8">
-                                <h3 className="text-3xl">Chief of Staff Jasleen Bal</h3>
-                                <p className="mt-2 text-black text-center">
-                                    Jasleen Bal (she/her) is a junior majoring in Public Health and Nutritional Sciences with a concentration in Physiology and Metabolism. She is passionate about Punjabi and Sikh issues and wants to build strong crosscultural connections within the MEMSSA community. She is super excited about being one of Senator Medina Danish’s Chiefs of Staff this year.
-                                </p>
-                            </div>
-                        </div>
-
+                <div className="flex flex-col gap-4 py-4">
+                    <div className="flex flex-col bg-brown border border-brown rounded-lg text-center shadow-md m-4 items-center">
+                        <h3 className="text-3xl">Chiefs of Staff</h3>
                     </div>
+
+                        <div className="flex flex-col w-full items-center justify-around text-center px-20 gap-y-8">
+                            {/* Chief 1 */}
+                            <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-x-12 w-full mx-auto">
+                                <div className="w-full md:w-1/3 flex justify-center">
+                                    {/* Image Card with Red Border */}
+                                    <div className="bg-dark-red rounded-tl-large-custom rounded-br-large-custom shadow-md p-2">
+                                        <img
+                                            src={Chief1Image}
+                                            alt="Chief 1"
+                                            className="h-auto w-full rounded-tl-large-custom rounded-br-large-custom"
+                                        />
+                                    </div>
+                                </div>
+                                <div className="w-full flex p-8 flex-col text-left md:text-left bg-brown border border-brown rounded-lg text-center shadow-md">
+                                    <h2 className="text-3xl">Somer Alrai </h2>
+                                    <p className="mt-2 text-black text-center">
+                                        Somer Alrai (she/her) is a sophomore majoring in Media Studies, Middle Eastern Languages and Cultures with a minor in Public Policy. She hopes to pursue a career in law and is committed to incorporating advocacy and justice into her future career. Having worked as the Student Organizing Director last year with the MEMSSA office, she is thrilled to contribute further to its mission and support the voices community as Chief of Staff this year.
+                                    </p>
+                                </div>
+                            </div>
+                            {/* Chief 2 */}
+                            <div className="flex flex-col md:flex-row items-center justify-center gap-x-12 w-full mx-auto">
+                                <div className="w-full md:w-1/3 flex justify-center">
+                                    {/* Image Card with Red Border */}
+                                    <div className="bg-dark-red rounded-tl-large-custom rounded-br-large-custom shadow-md p-2">
+                                        <img
+                                            src={Chief2Image}
+                                            alt="Chief 2"
+                                            className="h-auto w-full rounded-tl-large-custom rounded-br-large-custom"
+                                        />
+                                    </div>
+                                </div>
+                                <div className="w-full flex p-20 flex-col text-center bg-brown border border-brown rounded-lg text-center shadow-md p-8">
+                                    <h2 className="text-3xl">Abdullah Memon</h2>
+                                    <p className="mt-2 text-black ">
+                                        Abdullah Memon is currently a sophomore studying Politcal Economy and Middle Eastern Languages and culture, with a minor in Public Policy. He also serves as co-chief of staff for the MEMSSA office, focusing most of his time on external office tasks. He hopes to join the policy or law field after graduation and continue to advocate for disadvantaged communities as a life long mission.
+
+                                    </p>
+                                </div>
+                            </div>
+                            {/* Chief 3 */}
+                            <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-x-12 w-full mx-auto">
+                                <div className="w-full md:w-1/3 flex justify-center">
+                                    {/* Image Card with Red Border */}
+                                    <div className="bg-dark-red rounded-tl-large-custom rounded-br-large-custom shadow-md p-2">
+                                        <img
+                                            src={Chief3Image}
+                                            alt="Chief 3"
+                                            className="h-auto w-full rounded-tl-large-custom rounded-br-large-custom"
+                                        />
+                                    </div>
+                                </div>
+                                <div className="w-full flex flex-col p-20 text-left md:text-left bg-brown border border-brown rounded-lg text-center shadow-md p-8">
+                                    <h2 className="text-3xl">Jasleen Bal</h2>
+                                    <p className="mt-2 text-black text-center">
+                                        Jasleen Bal (she/her) is a junior majoring in Public Health and Nutritional Sciences with a concentration in Physiology and Metabolism. She is passionate about Punjabi and Sikh issues and wants to build strong crosscultural connections within the MEMSSA community. She is super excited about being one of Senator Medina Danish’s Chiefs of Staff this year.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
                 </div>
 
                 {/* departments */}
-                <div className="">
-                    <h3 className="text-center">Our Departments</h3>
+                <div className="flex flex-col bg-brown border border-brown rounded-lg text-center shadow-md m-4 items-center">
+                        <h3 className="text-3xl">Our Departments</h3>
                 </div>
 
                 {/* Carousel Section */}
