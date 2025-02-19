@@ -16,7 +16,7 @@ function Home() {
                     <div className="w-1/2 px-8 flex flex-col items-center bg-brown border border-brown rounded-lg text-center shadow-md p-8 mx-10">
                 <h3>About Us</h3>
                 <p className="text-lg mb-4">
-                  MEMSSA advocates for academic and administrative representation by operating on grassroots levels. We aim to mobilize organizations that serve or represent the Middle Eastern, Muslim, Sikh, and South Asian identities.
+                  MEMSSA advocates for academic and administrative representation by operating on grassroots levels. We aim to mobilize organizations that serve or represent the Middle Eastern, Muslim, Sikh, and South Asian identities. We strive to create a safe space for students to express their concerns and ideas, and to foster a sense of community among students of these identities. We are committed to promoting diversity and inclusion on campus and in the community.
                 </p>
                 <button
                   className="bg-dark-red text-light-brown py-2 px-8 rounded-xl hover:bg-light-purple"
