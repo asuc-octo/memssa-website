@@ -24,7 +24,7 @@ const Banner: React.FC<BannerProps> = ({ title }) => {
                 {/* subtitle */}
                 {title === "MEMSSA" && (
                     <h2 className="absolute top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/5">
-                        middle east, muslim, sikh, south asian association
+                        middle eastern, muslim, sikh, south asian association
                     </h2>
                 )}
             </div>
