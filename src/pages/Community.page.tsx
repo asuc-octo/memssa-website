@@ -5,9 +5,11 @@ import community1 from '../assets/images/community/community1.jpg';
 import community2 from '../assets/images/community/community2.jpg';
 import community3 from '../assets/images/community/community3.jpg';
 import community4 from '../assets/images/community/community4.jpg';
-import community5 from '../assets/images/community/community5.png';
+import community5 from '../assets/images/community/community5.jpg';
 import community6 from '../assets/images/community/community7.jpg';
-import community8 from '../assets/images/community/community8.png';
+import community8 from '../assets/images/community/community8.jpg';
+import community9 from '../assets/images/community/community9.jpg';
+import community10 from '../assets/images/community/community10.jpg';
 import afgan from '../assets/images/community/RSO Icons/afgan.png';
 import asu from '../assets/images/community/RSO Icons/ASU.png';
 import amenianlogo from '../assets/images/community/RSO Icons/amenianlogo.png';
@@ -45,9 +47,9 @@ function CommunityPage() {
             <div className="relative mx-auto w-[90%] mb-7 border-color border-8 rounded-tl-large-custom rounded-br-large-custom bg-dark-red">
                 {/* Carousel */}
                 <Carousel showThumbs={false} autoPlay interval={4000} infiniteLoop>
-                    {[community5, community1, community4, community2, community3, community6, community8].map((image, index) => (
+                    {[community1, community5, community4, community2, community3, community6, community8, community9, community10].map((image, index) => (
                         <div key={index}>
-                            <img src={image} alt={`Community Event ${index + 1}`} className="w-full h-auto max-h-[500px] object-cover rounded-large-custom" />
+                            <img src={image} alt={`Community Event ${index + 1}`} className="w-full h-auto max-h-[800px] object-cover object-center rounded-large-custom" />
                         </div>
                     ))}
                 </Carousel>
