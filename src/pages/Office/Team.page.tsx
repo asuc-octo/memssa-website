@@ -2,7 +2,7 @@ import { useState } from 'react';
 //import AboutUsImage from '../../assets/images/teambanner.png';
 import TeamHs from '../../assets/images/teampageheadshot.jpeg';
 //import ChiefsTeam from '../../assets/images/chiefsimg.jpg';
-import TeamBanner from '../../assets/images/teambanner.png';
+import TeamBanner from '../../assets/images/AboutUsImage.jpg';
 import Banner from '../../components/Navigation/Banner';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
