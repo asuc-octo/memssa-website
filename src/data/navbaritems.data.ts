@@ -1,6 +1,7 @@
 // import About from '../pages/About.page'
 import Constitution from '../pages/Office/Constitution.page'
 import Team from '../pages/Office/Team.page'
+import Senators from '../pages/Office/Senators.page'
 import Bills from '../pages/Office/Bills.page'
 import StudentResources from '../pages/Resources/StudentResources.page'
 import RSOResources from '../pages/Resources/RSOResources.page'
@@ -20,7 +21,8 @@ export interface NavBarItem {
 export const OFFICE_ITEMS: NavBarItem[] = [
     { path: '/office/constitution', label: 'Constitution', component: Constitution},
     { path: '/office/team', label: 'Team', component: Team},
-    { path: '/office/bills', label: 'Bills', component: Bills}
+    { path: '/office/bills', label: 'Bills', component: Bills},
+    { path: '/office/senators', label: 'Senators', component: Senators},
 ]
 
 export const RESOURCE_ITEMS: NavBarItem[] = [
