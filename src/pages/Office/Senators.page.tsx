@@ -56,7 +56,7 @@ function Senators() {
                         >
                             {senators.map((sen, index) => (
                                 <div key={index}>
-                                    <img src={sen.image} alt={sen.name} className="w-auto h-auto max-h-[700px] object-contain md:w-auto shadow-md p-5" />
+                                    <img src={sen.image} alt={sen.name} className="w-auto h-auto max-h-[500px] object-contain md:w-auto shadow-md p-5" />
                                 </div>
                             ))}
                         </Carousel>
