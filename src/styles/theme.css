@@ -35,6 +35,9 @@
     .border-color {
         @apply border-dark-red;
     }
+    .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+        @apply opacity-80
+    }
 }
 
 @layer components {

@@ -32,13 +32,19 @@ function Team() {
     ];
 
     // State to track the currently active department name and description
-    const [currentDepartment, setCurrentDepartment] = useState({ name: departments[0].name, description: departments[0].description });
+    const [activeIndex, setActiveIndex] = useState(0);
+    //const [currentDepartment, setCurrentDepartment] = useState({ name: departments[0].name, description: departments[0].description });
 
+    const currentDepartment = {
+        name: departments[activeIndex].name, // Set the department name}
+        description: departments[activeIndex].description, // Set the department description
+    };
     const handleChange = (index: number) => {
-        setCurrentDepartment({
-            name: departments[index].name, // Set the department name
-            description: departments[index].description, // Set the department description
-        });
+        // setCurrentDepartment({
+        //     name: departments[index].name, // Set the department name
+        //     description: departments[index].description, // Set the department description
+        // });
+        setActiveIndex(index);
     };
 
     return (
@@ -144,6 +150,7 @@ function Team() {
                             interval={3500}
                             infiniteLoop
                             onChange={handleChange}
+                            selectedItem={activeIndex}
                         >
                             {departments.map((dept, index) => (
                                 <div key={index}>
