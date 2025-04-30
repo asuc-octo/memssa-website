@@ -13,7 +13,7 @@ import alaa from '../../assets/images/senators/alaaaissi.png';
 import sumayyah from '../../assets/images/senators/sumayyah.png';
 import sadia from '../../assets/images/senators/sadia.png';
 import naira from '../../assets/images/senators/nairi.png';
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 
 import resData from '../../assets/ASUC_resolutions_by_senator.json';
 
@@ -42,7 +42,6 @@ function Senators() {
         ),
     }));
 
-    //const [currentSenator, setCurrentSenator] = useState({image: senatorsWithResolutions[0].image, name: senatorsWithResolutions[0].name, description: senatorsWithResolutions[0].description, resolutions: senatorsWithResolutions[0].resolutions});
     const [activeIndex, setActiveIndex] = useState(0);
     const currentSenator = senatorsWithResolutions[activeIndex]; // Get the current senator based on the active index
 
