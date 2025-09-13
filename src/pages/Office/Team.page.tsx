@@ -17,8 +17,8 @@ import community6 from '../../assets/images/Teams/Logistics.jpg';
 
 // Import images for chiefs of staff
 import Chief1Image from '../../assets/images/Teams/Cheif1Image.jpg'
-//import Chief2Image from '../../assets/images/Teams/Cheif2Image.jpg'
-//import Chief3Image from '../../assets/images/Teams/Cheif3Image.png'
+import Chief2Image from '../../assets/images/Teams/Cheif2Image.jpg'
+import Chief3Image from '../../assets/images/Teams/Cheif3Image.jpg'
 
 function Team() {
     // Carousel images and corresponding department names
@@ -101,7 +101,7 @@ function Team() {
                                     {/* Image Card with Red Border */}
                                     <div className="bg-dark-red rounded-tl-large-custom rounded-br-large-custom shadow-md p-2">
                                         <img
-                                            src=""
+                                            src={Chief2Image}
                                             alt="Chief 2"
                                             className="h-auto w-full rounded-tl-large-custom rounded-br-large-custom"
                                         />
@@ -119,7 +119,7 @@ function Team() {
                                     {/* Image Card with Red Border */}
                                     <div className="bg-dark-red rounded-tl-large-custom rounded-br-large-custom shadow-md p-2">
                                         <img
-                                            src=""
+                                            src={Chief3Image}
                                             alt="Chief 3"
                                             className="h-auto w-full rounded-tl-large-custom rounded-br-large-custom"
                                         />
