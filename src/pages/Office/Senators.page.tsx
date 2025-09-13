@@ -13,6 +13,7 @@ import alaa from '../../assets/images/senators/alaaaissi.png';
 import sumayyah from '../../assets/images/senators/sumayyah.png';
 import sadia from '../../assets/images/senators/sadia.png';
 import naira from '../../assets/images/senators/nairi.png';
+import somer from '../../assets/images/senators/someralrai.jpg';
 import {useState} from 'react';
 
 import resData from '../../assets/ASUC_resolutions_by_senator.json';
@@ -21,6 +22,7 @@ import resData from '../../assets/ASUC_resolutions_by_senator.json';
 
 function Senators() {
     const senators = [
+        { image: somer, name: 'Somer Alrai', description: '2025 - 2026' },
         { image: TeamHs, name: 'Medina Danish', description: '2024 - 2025' },
         { image: samazazai, name: 'Sama Zazai', description: '2023 - 2024' },
         { image: deenaali, name: 'Deena Ali', description: '2022 - 2023' },

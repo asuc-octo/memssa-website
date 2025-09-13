@@ -1,6 +1,6 @@
 import { useState } from 'react';
 //import AboutUsImage from '../../assets/images/teambanner.png';
-import TeamHs from '../../assets/images/teampageheadshot.jpeg';
+import somer from '../../assets/images/senators/someralrai.jpg';
 //import ChiefsTeam from '../../assets/images/chiefsimg.jpg';
 import TeamBanner from '../../assets/images/AboutUsImage.jpg';
 import Banner from '../../components/Navigation/Banner';
@@ -17,8 +17,8 @@ import community6 from '../../assets/images/Teams/Logistics.jpg';
 
 // Import images for chiefs of staff
 import Chief1Image from '../../assets/images/Teams/Cheif1Image.jpg'
-import Chief2Image from '../../assets/images/Teams/Cheif2Image.jpg'
-import Chief3Image from '../../assets/images/Teams/Cheif3Image.png'
+//import Chief2Image from '../../assets/images/Teams/Cheif2Image.jpg'
+//import Chief3Image from '../../assets/images/Teams/Cheif3Image.png'
 
 function Team() {
     // Carousel images and corresponding department names
@@ -58,13 +58,15 @@ function Team() {
                 {/* senator */}
                 <div className="flex flex-col md:flex-row items-center justify-center gap-24 mt-10">
                         <div className="w-1/3 h-1/3 flex items-center justify-center border-color border-8 rounded-tl-large-custom rounded-br-large-custom bg-dark-red">
-                            <img src={TeamHs} alt="Senator Medina Danish" className="h-auto md:w-auto rounded-large-custom shadow-md" />
+                            <img src={somer} alt="Senator Somer Alrai" className="h-auto md:w-auto rounded-large-custom shadow-md" />
                         </div>
                         <div className="flex flex-col w-1/2 text-center items-center self-start text-black justify-center bg-brown border border-brown rounded-lg text-center shadow-md p-8">
                             <h2 className="">
-                                Senator Medina Danish
+                                Senator Somer Alrai
                             </h2>
-                            <p className="mt-2">Medina Danish (she/her) is a junior majoring in Global Studies with a concentration in Peace & Conflict in the Middle East and minoring in Public Policy. She is passionate about MEMSSA issues and plans to work to combat them in her future career. As a member of the MEMSSA office for as long as she has been at Cal, she is beyond honored and excited about her term serving as the MEMSSA Community Senator.</p>
+                            <p className="mt-2">
+                                Somer Alrai is a junior majoring in Media Studies, Middle Eastern Languages and Cultures, and minoring in Public Policy.  Since the beginning of her time at Berkeley, she has been actively involved in the MEMSSA office, gaining firsthand experience with the unique challenges, opportunities, and strengths within the community. She is deeply committed to advocating for the MEMSSA community and being their voice on campus. She is honored to step into the role of MEMSSA Senator to build a more inclusive and supportive campus for MEMSSA students. 
+                            </p>
                         </div>
                     </div>
 
@@ -87,9 +89,9 @@ function Team() {
                                     </div>
                                 </div>
                                 <div className="w-full flex p-8 flex-col text-left md:text-left bg-brown border border-brown rounded-lg text-center shadow-md">
-                                    <h2 className="text-3xl">Somer Alrai </h2>
+                                    <h2 className="text-3xl">Sanjam Jajj</h2>
                                     <p className="mt-2 text-black text-center">
-                                        Somer Alrai (she/her) is a sophomore majoring in Media Studies, Middle Eastern Languages and Cultures with a minor in Public Policy. She hopes to pursue a career in law and is committed to incorporating advocacy and justice into her future career. Having worked as the Student Organizing Director last year with the MEMSSA office, she is thrilled to contribute further to its mission and support the voices community as Chief of Staff this year.
+                                        Sanjam Jajj (she/her) is currently a senior studying Psychology and Public Health. She hopes to pursue a career bridging behavioral health and maternal and child health. Continuing to uplift Punjabi and Sikh voices as one of the Chiefs of Staff, she is committed to fostering community connection and cross-cultural experiences within and beyond the MEMSSA office. 
                                     </p>
                                 </div>
                             </div>
@@ -99,17 +101,15 @@ function Team() {
                                     {/* Image Card with Red Border */}
                                     <div className="bg-dark-red rounded-tl-large-custom rounded-br-large-custom shadow-md p-2">
                                         <img
-                                            src={Chief2Image}
+                                            src=""
                                             alt="Chief 2"
                                             className="h-auto w-full rounded-tl-large-custom rounded-br-large-custom"
                                         />
                                     </div>
                                 </div>
                                 <div className="w-full flex p-20 flex-col text-center bg-brown border border-brown rounded-lg text-center shadow-md p-8">
-                                    <h2 className="text-3xl">Abdullah Memon</h2>
+                                    <h2 className="text-3xl">Abdinasir Ali Mohamed</h2>
                                     <p className="mt-2 text-black ">
-                                        Abdullah Memon is currently a sophomore studying Politcal Economy and Middle Eastern Languages and culture, with a minor in Public Policy. He also serves as co-chief of staff for the MEMSSA office, focusing most of his time on external office tasks. He hopes to join the policy or law field after graduation and continue to advocate for disadvantaged communities as a life long mission.
-
                                     </p>
                                 </div>
                             </div>
@@ -119,16 +119,15 @@ function Team() {
                                     {/* Image Card with Red Border */}
                                     <div className="bg-dark-red rounded-tl-large-custom rounded-br-large-custom shadow-md p-2">
                                         <img
-                                            src={Chief3Image}
+                                            src=""
                                             alt="Chief 3"
                                             className="h-auto w-full rounded-tl-large-custom rounded-br-large-custom"
                                         />
                                     </div>
                                 </div>
                                 <div className="w-full flex flex-col p-20 text-left md:text-left bg-brown border border-brown rounded-lg text-center shadow-md p-8">
-                                    <h2 className="text-3xl">Jasleen Bal</h2>
+                                    <h2 className="text-3xl">Aarja Singh</h2>
                                     <p className="mt-2 text-black text-center">
-                                        Jasleen Bal (she/her) is a junior majoring in Public Health and Nutritional Sciences with a concentration in Physiology and Metabolism. She is passionate about Punjabi and Sikh issues and wants to build strong crosscultural connections within the MEMSSA community. She is super excited about being one of Senator Medina Danish’s Chiefs of Staff this year.
                                     </p>
                                 </div>
                             </div>
