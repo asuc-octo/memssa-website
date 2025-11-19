@@ -6,6 +6,7 @@ import Banner from '../../components/Navigation/Banner';
 import UnivCal from '../../assets/images/uc.jpg'; // Example path for images
 import Msa from '../../assets/images/msa.jpg';
 import Mmhi from '../../assets/images/mmhi.jpg';
+import AACC from '../../assets/images/aacc_logo.png';
 
 const StudentResources: () => JSX.Element = () => {
   return (
@@ -13,8 +14,28 @@ const StudentResources: () => JSX.Element = () => {
       <Banner title="Student Resources" />
       <WidePageLayout>
         <div className="space-y-8">
-          {/* External Harassment Form */}
+          
           <div className="space-y-16 px-64">
+            {/* Protection against ICE */}
+            <div className="flex flex-col md:flex-row items-center gap-12 bg-brown border border-brown rounded-lg text-center shadow-md p-8">
+              <img
+                src={AACC}
+                alt="Arab American Civic Council Logo"
+                className="w-36 h-36 md:w-44 md:h-44 rounded-lg shadow-md object-cover"
+              />
+              <p className="text-left text-black">
+                Know Your Rights: <br />
+                Protecting yourself from immigration officers{" "}
+                <a
+                  href="https://aaciviccouncil.org/kyr/?link_id=2&can_id=9fd5c1bba850a5b02df7c547f00fc4b4&source=email-california-we-have-new-arabic-kyr-tools-fight-ab-715-on-july-9-2&email_referrer=email_2804165&email_subject=california-we-have-new-arabic-kyr-tools-fight-ab-715-on-july-9"
+                  style={{ textDecoration: "underline" }}
+                >
+                  here
+                </a>.
+              </p>
+            </div>
+
+            {/* External Harassment Form */}
             <div className="flex flex-col md:flex-row items-center gap-12 bg-brown border border-brown rounded-lg text-center shadow-md p-8">
               <img
                 src={UnivCal}

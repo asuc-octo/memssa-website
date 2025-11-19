@@ -40,7 +40,7 @@ function Footer() {
                     <ul className="text-xl list-none p-0">
                         <li className="mb-2"><a href="https://www.instagram.com/memssasenator/" className="hover:text-[#f8d6ba] transition-colors">Our Instagram</a></li>
                         <li className="mb-2"><a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2uuFG3En3ObBPHnw_LENfm84iv16edU_6PhsJkCdIAx8SSf3vDVIzGYzTieUOyYKqYDUzM8Z7Q" className="hover:text-[#f8d6ba] transition-colors">Schedule a Meeting</a></li>
-                        <li className="mb-2"><a href="mailto:contact@mdanish@asuc.org" className="hover:text-[#f8d6ba] transition-colors">Email Us</a></li>
+                        <li className="mb-2"><a href="mailto:contact@salrai@asuc.org" className="hover:text-[#f8d6ba] transition-colors">Email Us</a></li>
                     </ul>
                 </div>
                 
