@@ -7,6 +7,7 @@ import StudentResources from '../pages/Resources/StudentResources.page'
 import RSOResources from '../pages/Resources/RSOResources.page'
 import Calendar from '../pages/Calendar.page'
 import Community from '../pages/Community.page'
+import Newsletter from '../pages/Newsletter.page'
 
 export interface NavBarItem {
     path: string
@@ -36,4 +37,5 @@ export const NAV_BAR_ITEMS: NavBarItem[] = [
     { path: '/resources', label: 'Resources', subItems: RESOURCE_ITEMS},
     { path: '/calendar', label: 'Calendar', component: Calendar},
     { path: '/community', label: 'Community', component: Community},
+    { path: '/newsletter', label: 'Newsletter', component: Newsletter},
 ]

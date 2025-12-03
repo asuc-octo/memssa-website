@@ -49,7 +49,7 @@ function CommunityPage() {
                 <Carousel showThumbs={false} autoPlay interval={4000} infiniteLoop>
                     {[community1, community5, community4, community2, community3, community6, community8, community9, community10].map((image, index) => (
                         <div key={index}>
-                            <img src={image} alt={`Senator ${index + 1}`} className="w-full h-full p-5 object-contain object-center rounded-large-custom" />
+                            <img src={image} alt={`Senator ${index + 1}`} className="flex justify-centerw-full max-h-[95vh] p-5 object-contain object-center rounded-large-custom" />
                         </div>
                     ))}
                 </Carousel>
