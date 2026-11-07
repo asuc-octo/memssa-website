@@ -9,7 +9,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 // Import images for the carousel
 import community1 from '../../assets/images/Teams/SAO_Leg_Group_Pic.jpeg';
-import community2 from '../../assets/images/Teams/Community_Group_Pic.jpg';
+import community2 from '../../assets/images/Teams/community_group_pic.jpg';
 import community3 from '../../assets/images/Teams/DEIJ_group_pic.jpg';
 import community4 from '../../assets/images/Teams/SAO_Leg_Group_Pic.jpeg';
 import community5 from '../../assets/images/Teams/Marketing.jpg';
