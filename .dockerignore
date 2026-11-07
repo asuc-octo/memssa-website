@@ -1,0 +1,16 @@
+.git
+.github
+node_modules
+dist
+dist-ssr
+coverage
+*.local
+.env
+.env.*
+*.log
+.DS_Store
+.idea
+.vscode
+src/assets/screenshots
+vite.config.ts.timestamp-*.mjs
+*.md

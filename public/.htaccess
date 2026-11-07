@@ -1,0 +1,9 @@
+# Apache on ssh.ocf.berkeley.edu serves this file from public_html.
+# Client routes such as /office/team have no file of their own, so send them to the app.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.html [L]
+</IfModule>
